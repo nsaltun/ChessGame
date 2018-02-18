@@ -4,3 +4,6 @@ c:\users\enes\documents\visual studio 2015\Projects\DESIGN_PATTERNS\ChessGame\Ch
 c:\users\enes\documents\visual studio 2015\Projects\DESIGN_PATTERNS\ChessGame\ChessGame\obj\Debug\ChessGame.csprojResolveAssemblyReference.cache
 c:\users\enes\documents\visual studio 2015\Projects\DESIGN_PATTERNS\ChessGame\ChessGame\obj\Debug\ChessGame.exe
 c:\users\enes\documents\visual studio 2015\Projects\DESIGN_PATTERNS\ChessGame\ChessGame\obj\Debug\ChessGame.pdb
+C:\_Learning\DESIGN_PATTERNS\ChessGame\ChessGame\bin\Debug\ChessGame.exe.config
+C:\_Learning\DESIGN_PATTERNS\ChessGame\ChessGame\obj\Debug\ChessGame.exe
+C:\_Learning\DESIGN_PATTERNS\ChessGame\ChessGame\obj\Debug\ChessGame.pdb

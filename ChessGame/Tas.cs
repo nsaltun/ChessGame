@@ -8,13 +8,13 @@ namespace ChessGame
 {
     public abstract class Tas
     {
-        private TakimRengi takimRengi;
+        private TakimRengi tasRengi;
         private Kare bulunduguKare;
-        BusinessRule businessRule;
+        protected BusinessRule ruleManager;
 
-        public TakimRengi TakimRengi
+        public TakimRengi TasRengi
         {
-            get { return takimRengi; }
+            get { return tasRengi; }
         }
 
         public Kare BulunduguKare
@@ -23,10 +23,11 @@ namespace ChessGame
             set { bulunduguKare = value; }
         }
 
-        Tas(TakimRengi takimRengi, Kare bulunduguKare)
+        public Tas(TakimRengi takimRengi, Kare bulunduguKare)
         {
-            this.takimRengi = takimRengi;
+            this.tasRengi = takimRengi;
             this.bulunduguKare = bulunduguKare;
+            this.ruleManager = new BusinessRule();
         }
 
         public abstract bool IlerleyebilirMi(Kare gidecegiKare);
